@@ -4,11 +4,16 @@
 <head>
     <title> Olympus Mons Galactic Park </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="..\CSS\shared.css">
+    <link rel="stylesheet" href="..\CSS\animations.css">
 </head>
 
 <body>
+    <style>
+        body {
+            background-image: url("Mars_BG.png");
+        }
+    </style>
 
     <!--NAV-->
     <div class="wrap">
@@ -37,7 +42,6 @@
                 </span>
             </div>
         </div>
-
     </div>
     <!--END HOME-->
 
@@ -50,9 +54,9 @@
                 <!--PHOTO CONTAINER 1-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="C:\Users\phili\OneDrive\Desktop\Project\Images\Thumb\Outerspace_OM.png" alt="">
+                        <img src="..\Images\Thumb\Outerspace_OM.png" alt="">
                         <div class="photo-overlay">
-                            <h1>Click to Enlarge</h1>
+                            <h3 class="white-head">Click to Enlarge</h3>
                             <p>Trips daily! Book yours today!</p>
                         </div>
                     </div>
@@ -62,7 +66,7 @@
                 <!--PHOTO CONTAINER 2-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="C:\Users\phili\OneDrive\Desktop\Project\Images\Thumb\OMGP2.png" alt="">
+                        <img src="..\Images\Thumb\OMGP2.png" alt="">
                         <div class="photo-overlay">
                             <h1>Click to Enlarge</h1>
                             <p>Trips daily! Book yours today!</p>
@@ -74,7 +78,7 @@
                 <!--PHOTO CONTAINER 3-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="C:\Users\phili\OneDrive\Desktop\Project\Images\Thumb\Dual_Planets3.png" alt="">
+                        <img src="..\Images\Thumb\Dual_Planets3.png" alt="">
                         <div class="photo-overlay">
                             <h1>Click to Enlarge</h1>
                             <p>Trips daily! Book yours today!</p>
@@ -86,7 +90,7 @@
                 <!--PHOTO CONTAINER 4-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="C:\Users\phili\OneDrive\Desktop\Project\Images\Thumb\OM4.png" alt="">
+                        <img src="..\Images\Thumb\OM4.png" alt="">
                         <div class="photo-overlay">
                             <h1>Click to Enlarge</h1>
                             <p>Trips daily! Book yours today!</p>
@@ -98,7 +102,7 @@
                 <!--PHOTO CONTAINER 5-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="C:\Users\phili\OneDrive\Desktop\Project\Images\Thumb\OM5.png" alt="">
+                        <img src="..\Images\Thumb\OM5.png" alt="">
                         <div class="photo-overlay">
                             <h1>Click to Enlarge</h1>
                             <p>Trips daily! Book yours today!</p>
@@ -110,7 +114,7 @@
                 <!--PHOTO CONTAINER 6-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="C:\Users\phili\OneDrive\Desktop\Project\Images\Thumb\OM6.png" alt="">
+                        <img src="..\Images\Thumb\OM6.png" alt="">
                         <div class="photo-overlay">
                             <h1>Click to Enlarge</h1>
                             <p>Trips daily! Book yours today!</p>
@@ -122,8 +126,7 @@
                 <!--PHOTO CONTAINER 7-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="C:\Users\phili\OneDrive\Desktop\Project\Images\Thumb\Olympus_Mons_Galactic_Park7.png"
-                            alt="">
+                        <img src="..\Images\Thumb\Olympus_Mons_Galactic_Park7.png" alt="">
                         <div class="photo-overlay">
                             <h1>Click to Enlarge</h1>
                             <p>Trips daily! Book yours today!</p>
@@ -135,7 +138,7 @@
                 <!--PHOTO CONTAINER 8-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="C:\Users\phili\OneDrive\Desktop\Project\Images\Thumb\Mars_Landscape8.png" alt="">
+                        <img src="..\Images\Thumb\Mars_Landscape8.png" alt="">
                         <div class="photo-overlay">
                             <h1>Click to Enlarge</h1>
                             <p>Trips daily! Book yours today!</p>
@@ -147,7 +150,7 @@
                 <!--PHOTO CONTAINER 9-->
                 <div class="photo-container">
                     <div class="photo">
-                        <img src="C:\Users\phili\OneDrive\Desktop\Project\Images\Thumb\OMVista9.png" alt="">
+                        <img src="..\Images\Thumb\OMVista9.png" alt="">
                         <div class="photo-overlay">
                             <h1>Click to Enlarge</h1>
                             <p>Trips daily! Book yours today!</p>
@@ -163,12 +166,38 @@
 
     <!--RSVP-->
     <section id="contact">
+        <div class="container">
+            <div class="heading-padding">
+                <h1 class="heading-padding">Reservations</h1>
+                <div class="reservation">
+                    <h2><span>Your adventure awaits!</span>
+                        <br /> Reserve your spot today!
+                    </h2>
+                    <p class="rsvp-text"> Please provide us with your basic contact information</p>
+                    <div class="form-rsvp">
+                        <form action="" method="post">
+                            <input class="rsvp" type="text" value="" placeholder="First Name">
+                            <input class="rsvp" type="text" value="" placeholder="Last Name">
+                            <input class="rsvp" type="text" value="" placeholder="Email Address">
+                            <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                            <div class="form-spacer">
+                                <label class="terms"> Terms and Conditions</label>
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
     <!--END RSVP-->
 
     <!--FOOTER-->
     <div id="footer">
+        www.olympusmonsgp.com &nbsp; | &nbsp; &copy; 2021
 
     </div>
     <!--END FOOTER-->
