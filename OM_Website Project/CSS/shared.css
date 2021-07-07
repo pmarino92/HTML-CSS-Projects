@@ -255,6 +255,7 @@ section {
 
 .reservation input[type="text"] {
     font-size: 15px;
+    text-align: center;
     outline: none;
     font-weight: 600;
     color: #8d8e8f;
