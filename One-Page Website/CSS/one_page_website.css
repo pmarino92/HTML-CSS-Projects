@@ -1,0 +1,11 @@
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+}
+
+input {
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 2px;
+    border: 2px solid black;
+}
